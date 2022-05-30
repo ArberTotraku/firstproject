@@ -1,0 +1,149 @@
+.project1 {
+  background-color: gold;
+}
+
+.table1 {
+  border: solid blue;
+}
+.table2 {
+  border: solid red;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.projectbody {
+  background-color: gold;
+}
+
+.gif {
+  image-rendering: auto;
+}
+.paragraph1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+}
+
+.blogbody {
+  background-color: beige;
+}
+
+.aboutclass {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/2560px-Flag_of_Albania.svg.png");
+
+}
+
+.content_img {
+  flex-wrap: wrap;
+  padding: 0%;
+  margin: auto;   
+}
+
+.loremclass {
+  font-family: "Montserrat", sans-serif;
+}
+
+.importfront {
+  font-family: "Roboto", sans-serif;
+}
+
+.workclass {
+  background-color: beige;
+}
+
+.contactbody {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+#iframe {border: none;}
+
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+.contactbody {
+  background-color: beige;
+}
+
+.loader {
+  border: 16px solid #d50a0a;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
